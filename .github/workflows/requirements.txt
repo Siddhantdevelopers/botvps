@@ -1,0 +1,10 @@
+requests==2.31.0
+python-telegram-bot==20.3
+apscheduler==3.9.1
+
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+pip install requests python-telegram-bot apscheduler
+
+pip freeze > requirements.txt
